@@ -1,12 +1,23 @@
 import React from "react";
-import { Container, Grid, Input, Divider, Checkbox,Image,Card } from "semantic-ui-react";
+import {
+  Container,
+  Grid,
+  Input,
+  Divider,
+  Checkbox,
+  Image,
+  Card,
+} from "semantic-ui-react";
 import CommonCard from "./common/card";
 import { cardContent } from "../utils/commonvar";
-
-
+import Navbar from "../components/Navbar";
+import TopSlider from "../components/topslider";
+import Footer from "../components/Footer";
 function Shop() {
   return (
     <>
+      <Navbar />
+      <TopSlider />
       <Container className="about-shop">
         <h2 className="text-center">Shop Categroies</h2>
         <Grid divided="vertically">
@@ -40,7 +51,7 @@ function Shop() {
             </Grid.Column>
             <Grid.Column width={12}>
               <h3>Categories</h3>
-             
+
               <div class="ui secondary menu category">
                 <a class="active item">ALL</a>
                 <a class="item">ELECTRONICS</a>
@@ -60,13 +71,13 @@ function Shop() {
                       <CommonCard image={item.img2}></CommonCard>
                     </Grid.Column>
                   ))}
-                 
                 </Grid.Row>
               </Grid>
             </Grid.Column>
           </Grid.Row>
         </Grid>
       </Container>
+      <Footer />
     </>
   );
 }

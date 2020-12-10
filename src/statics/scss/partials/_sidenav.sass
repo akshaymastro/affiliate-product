@@ -4,6 +4,7 @@
     margin-left: 12px!important
 .dashboard
     background: #313C4E
+    height: 100%
 
     .sidebar
         color: #ffffff
@@ -47,32 +48,43 @@
                     margin-left: 0
                     border-right: 0px
                     width: inherit
-                    &::before
-                        border-right: 20px solid #212936
-                        content: ""
-                        position: absolute
-                        top: -36px
-                        z-index: 9
-                        right: -154px
-                        bottom: 0
-                        height: 25px
-                        border-top-color: transparent
-                        border-left-color: transparent
-                        border-bottom: transparent
-                        border-radius: 0px 0px 12px 0px
-                    &::after
-                        border-right: 20px solid #212936
-                        content: ""
-                        position: absolute
-                        top: 29px
-                        z-index: 0
-                        bottom: 0
-                        height: 12px
-                        border-top-color: transparent
-                        border-left-color: transparent
-                        border-bottom: transparent
-                        border-radius: 0px 48px 0px 0px
-                        right: -281%
+        .with-sub
+            color: #ffff
+            font-size: 16px
+            position: relative
+            z-index: 1
+            margin: 10px auto
+            text-align: center
+            border-radius: 30px 0 0 30px
+            margin-left: 0
+            border-right: 0px
+            width: inherit
+            &::before
+                border-right: 20px solid #212936
+                content: ""
+                position: absolute
+                top: -36px
+                z-index: 9
+                right: -154px
+                bottom: 0
+                height: 25px
+                border-top-color: transparent
+                border-left-color: transparent
+                border-bottom: transparent
+                border-radius: 0px 0px 12px 0px
+                &::after
+                    border-right: 20px solid #212936
+                    content: ""
+                    position: absolute
+                    top: 29px
+                    z-index: 0
+                    bottom: 0
+                    height: 12px
+                    border-top-color: transparent
+                    border-left-color: transparent
+                    border-bottom: transparent
+                    border-radius: 0px 48px 0px 0px
+                    right: -281%
 
                     .shape1
                         position: absolute
@@ -81,12 +93,12 @@
                         height: 60px
                         right: -154px
                         background: #313C4E
-                    .shape2
-                        position: absolute
-                        top: 35px
-                        width: 20px
-                        height: 30px
-                        right: 0px
+                        .shape2
+                            position: absolute
+                            top: 35px
+                            width: 20px
+                            height: 30px
+                            right: 0px
 .fas
     margin-right: 8px
 .dashboard_content

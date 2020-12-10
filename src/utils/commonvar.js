@@ -1,27 +1,27 @@
 export const cardContent = [
   {
     img2:
-      "https://previews.123rf.com/images/sentavio/sentavio1610/sentavio161000652/64110760-linear-flat-online-shopping-website-hero-image-vector-illustration-e-commerce-business-sale-and-cons.jpg",
+      "https://image.shutterstock.com/image-vector/shopping-paper-bag-yellow-empty-260nw-1704993016.jpg",
   },
   {
     img2:
-      "https://previews.123rf.com/images/sentavio/sentavio1610/sentavio161000652/64110760-linear-flat-online-shopping-website-hero-image-vector-illustration-e-commerce-business-sale-and-cons.jpg",
+      "https://image.shutterstock.com/image-vector/shopping-paper-bag-yellow-empty-260nw-1704993016.jpg",
   },
   {
     img2:
-      "https://previews.123rf.com/images/sentavio/sentavio1610/sentavio161000652/64110760-linear-flat-online-shopping-website-hero-image-vector-illustration-e-commerce-business-sale-and-cons.jpg",
+      "https://image.shutterstock.com/image-vector/shopping-paper-bag-yellow-empty-260nw-1704993016.jpg",
   },
   {
     img2:
-      "https://previews.123rf.com/images/sentavio/sentavio1610/sentavio161000652/64110760-linear-flat-online-shopping-website-hero-image-vector-illustration-e-commerce-business-sale-and-cons.jpg",
+      "https://image.shutterstock.com/image-vector/shopping-paper-bag-yellow-empty-260nw-1704993016.jpg",
   },
   {
     img2:
-      "https://previews.123rf.com/images/sentavio/sentavio1610/sentavio161000652/64110760-linear-flat-online-shopping-website-hero-image-vector-illustration-e-commerce-business-sale-and-cons.jpg",
+      "https://image.shutterstock.com/image-vector/shopping-paper-bag-yellow-empty-260nw-1704993016.jpg",
   },
   {
     img2:
-      "https://previews.123rf.com/images/sentavio/sentavio1610/sentavio161000652/64110760-linear-flat-online-shopping-website-hero-image-vector-illustration-e-commerce-business-sale-and-cons.jpg",
+      "https://image.shutterstock.com/image-vector/shopping-paper-bag-yellow-empty-260nw-1704993016.jpg",
   },
 ];
 

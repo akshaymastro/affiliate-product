@@ -1,9 +1,13 @@
 import React from "react";
 import { Container, Grid, Image } from "semantic-ui-react";
-
+import Navbar from "../components/Navbar";
+import TopSlider from "../components/topslider";
+import Footer from "../components/Footer";
 function Work() {
   return (
     <>
+      <Navbar />
+      <TopSlider />
       <Container className="about-work">
         <h3 className="text-center">Get paid to shop!</h3>
         <Grid divided="vertically">
@@ -24,6 +28,8 @@ function Work() {
           </Grid.Row>
         </Grid>
       </Container>
+
+      <Footer />
     </>
   );
 }

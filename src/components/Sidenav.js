@@ -1,15 +1,13 @@
-import React, { Component, useEffect, useState } from "react";
-import { Grid, Progress, Button, Dropdown } from "semantic-ui-react";
-import Dashboard from "./Dashboard";
-import Advertisement from "./Advertisement";
-import AdminSetting from "./AdminSetting";
+import React from "react";
+import { Grid,  Dropdown } from "semantic-ui-react";
+
 
 function Sidenav(props) {
   return (
-    <>
+  
       <div className="dashboard">
         <Grid divided="vertically">
-          <Grid.Row columns={3}>
+          <Grid.Row columns={2}>
             <Grid.Column width={4}>
               <div className="sidebar">
                 <div className="ico text-center">
@@ -40,7 +38,8 @@ function Sidenav(props) {
                   </li>
                   <li className="active">
                     <i class="fas fa-ticket-alt"></i>
-                    <a href="/support" className="with-sub">
+                    <a href="/dashboard
+                    " className="with-sub">
                       {" "}
                       Support
                       <span class="shape1"></span>
@@ -125,7 +124,6 @@ function Sidenav(props) {
           </Grid.Row>
         </Grid>
       </div>
-    </>
   );
 }
 
